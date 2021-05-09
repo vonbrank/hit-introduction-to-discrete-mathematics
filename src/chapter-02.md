@@ -1,0 +1,68 @@
+
+# 第二章 映射
+
+## 2.3 映射的一般性质
+
+### 10.
+
+设 $M$ 是一个非空集合， $\varphi : M \rightarrow M ,\ N  \subseteq M$ 。令 $𝒜 = \{  P \ | \ P \subseteq M$ 且 $N \subseteq P , \ \varphi(P) \subseteq P \}$ ， $G= \displaystyle\bigcap_{P \in 𝒜} P$ 。 试证：
+
+1. $G \in 𝒜$ ；
+
+2. $N \bigcup \varphi (G) = G$ 。
+
+**证明**：
+
+1.  $\forall x \in G ， P \in 𝒜$ ，有 $x \in P$ 
+
+    所以 $\forall x \in G ， x \in M$ ，即 $G \subseteq M$ 
+
+    $\forall x \in N ，x \in P$ ，即 $x \in \displaystyle\bigcap_{P \in 𝒜} P = G$ ，所以 $N \subseteq G$
+
+    $\forall x \in G$ ，有 $\varphi (x) \in P$ ，即 $\varphi (x) \in \displaystyle\bigcap_{P \in 𝒜} P = G$ ，所以 $\varphi (G) \subseteq G$
+
+    综上 $G \in 𝒜$
+
+2.  
+    + 先证 $N \bigcup \varphi (G) \subseteq G$ 。
+
+      $\forall x \in N \bigcup \varphi (G)$ ， $x \in N \ 或 \ x \in \varphi (G)$
+
+      若 $x \in N$ ，因为 $N \subseteq G$ ，所以 $x \in G$ 。
+
+      若 $x \in \varphi (G)$ ，因为 $\varphi (G) \subseteq G$ ，所以 $x \in G$ 。
+
+      所以 $N \bigcup \varphi (G) \subseteq G$ 。
+
+    + 再证 $G \subseteq N \bigcup \varphi (G)$ ：
+
+      $\forall x \in G$ ，
+
+      由于 $N \subseteq G$ ，
+
+      若 $x \in N$ , $x \in N \bigcup \varphi (G)$
+
+      若 $x \notin N$ ,  则 $x \in G \backslash N$
+
+      - 下证： $\forall x \in G \backslash N, \ \varphi (x) \notin N$ 。
+
+        假设 $\varphi (x) \in N$ ，那么 $G \backslash x \in 𝒜$ ，与 $G= \displaystyle\bigcap_{P \in 𝒜} P$ 矛盾。
+
+        故  $\forall x \in G \backslash N, \ \varphi (x) \notin N$ 
+
+        即  $\forall x \in G \backslash N, \ \varphi (x) \in G \backslash N$ 
+  
+      - 再下证： $\varphi : G \backslash N \rightarrow G \backslash N$ 是双射。
+
+        假设 $\varphi : G \backslash N \rightarrow G \backslash N$ 不是满射，
+
+        即 $\exist y \in G \backslash N , \ s.t. \ \varphi ^{-1} (y) = \empty$ ，
+
+        那么 $G \backslash y \in 𝒜$ ，与 $G= \displaystyle\bigcap_{P \in 𝒜} P$ 矛盾。
+
+        所以 $\varphi : G \backslash N \rightarrow G \backslash N$ 是满射，也是双射。
+
+        即 $\varphi (G \backslash N) = G \backslash N$
+
+      所以 $x \in G \backslash N = \varphi (G \backslash N) \subseteq \varphi (G)$ 。
+
