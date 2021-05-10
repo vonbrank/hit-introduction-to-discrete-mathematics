@@ -12,13 +12,13 @@
 
 本项目提供的答案使用LaTex美化，并使用KaTex渲染器渲染。由于Github网页端不支持Markdown扩展语法，这意味着在线阅读的体验不佳。如需查看美化后的答案，请将项目`clone`至本地并使用相关编辑器查看。更多内容请查看 [贡献规则 | 先决条件](#先决条件) 以及 [请参见](#请参见) 。
 
-具体来说，你可以直接下载本项目的文件，或者：
+具体来说，你可以直接下载本项目的[源文件](https://github.com/vonbrank/hit-introduction-to-discrete-mathematics/archive/refs/heads/master.zip)，或者：
 
 ```bash
 git clone git@github.com:vonbrank/introduction-to-discrete-mathematics.git
 ```
 
-将文件下载至本地，并使用Typora或vscode等软件查看。
+并使用[Typora](https://www.typora.io/)或[vscode](https://code.visualstudio.com/)等软件查看。
 
 ## 参考答案目录
 
