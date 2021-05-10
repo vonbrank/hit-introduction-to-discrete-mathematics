@@ -22,9 +22,13 @@ git clone git@github.com:vonbrank/introduction-to-discrete-mathematics.git
 
 ## 参考答案目录
 
-+ [第二章 映射](./src/chapter-02.md)
++ [第二章 映射](./src/chapter-02)
 
-  + [2.3 映射的一般性质](./src/chapter-02.md###-2.3-映射的一般性质)
+  + [2.3 映射的一般性质](./src/chapter-02/2.3.md)
+
++ [第六章 图的基本概念](./src/chapter-06)
+
+  + [6.3 路、圈、连通图](./src/chapter-06/6.3.md)
 
 ## 贡献规则
 
