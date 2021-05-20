@@ -8,29 +8,13 @@
 
 本人将在此不定期上传对于本人来说难或不难、会写或不会写，但在官方提供的参考答案中存在错误、或未提供参考答案的题目及其非官方解析。
 
-## 使用方法
+## 在线阅读地址
 
-本项目提供的答案使用LaTex美化，并使用KaTex渲染器渲染。由于Github网页端不支持Markdown扩展语法，这意味着在线阅读的体验不佳。如需查看美化后的答案，请将项目`clone`至本地并使用相关编辑器查看。更多内容请查看 [贡献规则 | 先决条件](#先决条件) 以及 [请参见](#请参见) 。
-
-具体来说，你可以直接下载本项目的[源文件](https://github.com/vonbrank/hit-introduction-to-discrete-mathematics/archive/refs/heads/master.zip)，或者：
-
-```bash
-git clone git@github.com:vonbrank/introduction-to-discrete-mathematics.git
-```
-
-并使用[Typora](https://www.typora.io/)或[vscode](https://code.visualstudio.com/)等软件查看。
-
-## 参考答案目录
-
-+ [第二章 映射](./src/chapter-02)
-
-  + [2.3 映射的一般性质](./src/chapter-02/2.3.md)
-
-+ [第六章 图的基本概念](./src/chapter-06)
-
-  + [6.3 路、圈、连通图](./src/chapter-06/6.3.md)
+我们提供了在线阅读电子书，现在你可以直接在[这里](https://vonbrank.github.io/hit-introduction-to-discrete-mathematics/)阅读，祝你学习愉快。
 
 ## 贡献规则
+
+**我们非常欢迎PR**
 
 如果你认同项目创立者的观点，并希望贡献本项目，可以参考此处的贡献规则，贡献你的答案。
 

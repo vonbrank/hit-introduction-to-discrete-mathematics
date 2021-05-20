@@ -2,7 +2,7 @@
     "title": "Summary",
     "links": {
         "sidebar": {
-            "Home": "https://wangzhebufangqi.github.io"
+            "Home": "https://vonbrank.github.io/"
         }
     },
     "plugins": [
@@ -16,7 +16,9 @@
         "-lunr",
         "-search",
         "search-pro",
-        "splitter"
+        "splitter",
+        "advanced-emoji",
+        "katex-ng"
     ],
     "pluginsConfig": {
         "page-footer-ex": {
