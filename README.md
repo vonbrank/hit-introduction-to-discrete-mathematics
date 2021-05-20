@@ -58,10 +58,12 @@ LaTeX是一套排版系统，尤其擅长生成复杂的数学公式，支持扩
 
 本项目提供的答案使用LaTex美化，并使用KaTex渲染器渲染。因此你也需要在KaTex支持的LaTex语法范围内编写，美化并贡献你的答案。
 
-在Markdown中添加LaTex代码非常简单，只需要在Markdown中直接输入LaTex代码，然后在两侧添加`$`即可，如：
+在Markdown中添加LaTex代码非常简单，只需要在Markdown中直接输入LaTex代码，然后在两侧添加 `$ $` 即可，如：
 
 ```markdown
+
 $x^2 - 1 = 0$
+
 ```
 
 由于Katex渲染器只支持LaTex部分语法（尽管如此，其渲染速度通常是MathJax的上百倍），所以请在KaTex支持的语法范围内编写公式。
