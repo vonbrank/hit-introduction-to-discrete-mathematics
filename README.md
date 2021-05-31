@@ -20,55 +20,55 @@
 
 ### 先决条件
 
-#### Git / Github 先决条件
+在贡献本项目之前，你需要会以下技能：
 
-如你所见，这是一个Github项目，显然你需要学习使用Git/Github才能执行代码提交工作，为本项目提交贡献。
-
-更重要的是，如果你能看到这里，并对这段文字感兴趣，说明不论不论你身处哪个大类，将来选择哪个专业，熟练使用git等版本控制系统对于未来的学习和工作是必不可少的。
-
-如果你第一次听说git，本人尤其推荐[这套教程](https://www.liaoxuefeng.com/wiki/896043488029600)。~~顺便一说这里的Python/Java/JavaScript教程也很不错。~~
-
-#### Markdown 先决条件
-
-Markdown 是一个 Web 上使用的文本到HTML的转换工具，可以通过简单、易读易写的文本格式生成结构化的HTML文档。目前 github、Stackoverflow 等网站均支持这种格式。
-
-这是个Github项目，当然要使用Markdown排版。
-
-更多关于Markdown的说明 [请参见](#请参见) 。
-
-#### LaTeX 先决条件
-
-LaTeX是一套排版系统，尤其擅长生成复杂的数学公式，支持扩展语法的Markdown编辑器如Typora，Visual Studio Code等，可以直接编辑并渲染LaTex公式。
-
-本项目提供的答案使用LaTex美化，并使用KaTex渲染器渲染。因此你也需要在KaTex支持的LaTex语法范围内编写，美化并贡献你的答案。
-
-在Markdown中添加LaTex代码非常简单，只需要在Markdown中直接输入LaTex代码，然后在两侧添加 `$ $` 即可，如：
-
-```markdown
-
-$x^2 - 1 = 0$
-
-```
-
-由于Katex渲染器只支持LaTex部分语法（尽管如此，其渲染速度通常是MathJax的上百倍），所以请在KaTex支持的语法范围内编写公式。
-
-更多关于Latex/KaTex的说明 [请参见](#请参见) 。 
++ [Git](https://www.liaoxuefeng.com/wiki/896043488029600)
++ [Markdown](https://www.markdown.cn/)
++ [LaTeX (KaTex)](https://katex.org/docs/supported.html)
 
 ### 参考答案格式
 
-#### 答案组成
+核心内容在`src`内，目录树如下：
 
-#### 排版
+```
+├─part-01-set-theory
+│  └─chapter-01
+│  └─chapter-02
+│  └─chapter-03
+│  └─ ...
+└─part-02-graph-theory
+│  └─chapter-01
+│  └─chapter-02
+│  └─chapter-03
+│  └─ ...
+```
 
-#### LaTex美化
+每道题的题号需要使用一个三级标题，以图论第六章6.3为例:
+
+```
+---
+page: P209
+---
+
+# 第六章 图的基本概念
+
+## 6.3 路、圈、连通图
+
+### 1.
+
+...
+
+### 2.
+
+...
+
+### 3.
+
+...
+
+```
 
 ### 错误解析反馈
 
 因为本人太菜了，贡献本项目的大佬们也可能存在疏漏，所以如果你在查看参考答案的过程中发现了纰漏，请提交issue，便于我们进行修正。
 
-## 请参见
-
-+ git入门教程： https://www.liaoxuefeng.com/wiki/896043488029600
-+ Markdown语法说明： https://www.markdown.cn/
-+ KaTex官方参考手册： https://katex.org/docs/supported.html
-+ vscode下的Markdown工作模式 https://zhuanlan.zhihu.com/p/56943330
