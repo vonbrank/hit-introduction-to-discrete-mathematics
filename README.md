@@ -12,6 +12,8 @@
 
 我们提供了在线阅读电子书，现在你可以直接在[这里](https://vonbrank.github.io/hit-introduction-to-discrete-mathematics/)阅读，祝你学习愉快。
 
+源项目[地址](https://github.com/vonbrank/hit-introduction-to-discrete-mathematics)。
+
 ## 贡献规则
 
 **我们非常欢迎PR**
